@@ -14,10 +14,13 @@ public class FunRestController {
     @Value("${team.name}")
     private String teamName;
 
+    // Default Endpoint
     @GetMapping("/")
     public String sayHello(){
         return "Hello World";
     }
+
+    // Testing different endpoints
     @GetMapping("/workout")
     public String getDailyWorkout(){
         return "Run a hard 5k!";

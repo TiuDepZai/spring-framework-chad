@@ -1,4 +1,4 @@
-package util;
+package com.tiu.springcore.common;
 
 import org.springframework.stereotype.Component;
 
@@ -7,6 +7,6 @@ public class CricketCoach implements Coach {
 
     @Override
     public String getDailyWorkout() {
-        return "Do Some exercise you lazy bum!!!";
+        return "Doaaa ra fries you lazy bum!!!";
     }
 }

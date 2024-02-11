@@ -1,4 +1,4 @@
-package util;
+package com.tiu.springcore.common;
 
 public interface Coach {
 
